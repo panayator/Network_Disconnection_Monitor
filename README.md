@@ -3,6 +3,7 @@
 
 
 #### A simple Python script that helps you monitor your router's bad behavior, aka disconnections/reboots etc.
+I created this for personal use, because I've been having some problems with my ISP and I wanted to see how frequently the router was rebooting on its own.<br><br><br>
 The program:
 - detects disconnections from the internet by attempting to connect via socket to Google's DNS server
 - creates a .txt to log disconnections that meet the required criteria (disconnections longer than 1 minute)
